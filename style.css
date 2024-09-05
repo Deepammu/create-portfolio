@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    
+    text-decoration: none;
+    list-style: none;
+
+}
+.big{
+    position: absolute;
+    height: 100vh;
+    
+}
+
+
+.container-fluid {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+     background-color: rgba(0, 0, 0, 0.7);
+
+    z-index: 100;
+    
+
+}
+.navbar-brand{
+    font-size: 25px;
+    color: white;
+    /* font-weight: 600; */
+    transition: 0.3s ease;
+}
+.navbar-brand a{
+color: orangered;
+text-shadow: 0 0 25px orangered,
+             0 0 50px orangered;
+transform: scale(1.1);    
+}
+span{
+    color: orangered;
+}
+
+.container-fluid a{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: 0.3s ease;
+}
+.container-fluid a:hover{
+    color: orangered;
+}
+.home{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    line-height: 30%;
+    line-break: normal;
+    font-weight: bold;
+    
+    color: rgb(114, 34, 114);
+}
+
+        
+
+h3{
+    color: white;
+    font-size: 40px;
+}
+.about{
+    
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+
+    
+}
+
+h1{
+    text-align: center;
+}
+.main{
+    position: absolute;
+    top: 220%;
+    
+    text-align: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+gap: 2px;
+}
+.foot{
+    position: absolute;
+    top: 330%;
+    
+    text-align: center;
+    left: 30%;
+    bottom: 50%;
+}
+.foot a{
+    letter-spacing: 30px;
+    font-size: 50px;
+}
+
+
+
+
